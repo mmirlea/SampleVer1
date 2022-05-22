@@ -21,3 +21,8 @@ console.log(1 + "1"); //11
 console.log("2" === 2); //false
 console.log(true === 1);//false
 console.log('abc' === new String('abc'));//true ->false: 'abc' : String/ new String : Object
+
+console.log("============================");
+
+const str = '5';
+console.log(parseInt(str) == 5);
